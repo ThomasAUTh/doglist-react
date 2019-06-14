@@ -1,12 +1,12 @@
 import React from 'react';
 import './App.css';
-import DogList from './components/DogList';
+import DogListContainer from './components/DogListContainer';
 
 function App() {
   return (
     <div className="App">
       <main>
-        <DogList />
+        <DogListContainer />
       </main>
     </div>
   );
